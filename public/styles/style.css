@@ -1,0 +1,58 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+.titulo {
+
+    font-weight: bold;
+    color: rgb(36, 180, 247);
+}
+
+.header {
+
+    display: flex;
+    background-color: rgb(4, 0, 22);
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navbar {
+
+    display: flex;
+    color: orange;
+    flex-direction: row;
+}
+
+.box {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+
+.simulador {
+
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+}
+
+.card {
+
+    display: flex;
+    width: 100;
+    height: 100;
+    justify-content: center;
+    background-color: rgb(194, 193, 193);
+    flex-direction: column;
+}
+
+.banner{
+
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+}
+
+.footer {
+
+    display: flex;
+    background-color: rgb(36, 180, 247);
+    justify-content: center;
+    color: white;
+}
