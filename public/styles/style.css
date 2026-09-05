@@ -3,6 +3,7 @@
 .titulo {
 
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(36, 180, 247);
 }
 
@@ -19,7 +20,8 @@
 
     display: flex;
     color: orange;
-    flex-direction: row;
+    flex-flow: row wrap;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .campo {
@@ -32,34 +34,58 @@
 
 .box {
     
-    width: 20%;
-    height: 20%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-
+    background-size: cover;
 }
 
 .simulador {
 
+    display: flex;
+    background-size: cover;
     background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
 }
 
 .card {
 
     display: flex;
-    width: 30%;
-    height: 50%;
+    width: 50%;
+    height: 80%;
     border-radius: 15px;
     justify-content: center;
     justify-self: center;
     background-color: rgb(194, 193, 193);
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(173, 55, 110);
 }
 
 .banner{
 
     background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+}
+
+.formulario {
+    
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botao {
+
+    width: 20%;
+    height: 20%;
+    display: flex;
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+
 }
 
 .footer {
