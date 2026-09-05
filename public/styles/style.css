@@ -11,7 +11,8 @@
     display: flex;
     background-color: rgb(4, 0, 22);
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-items: flex-end;
+    justify-self:stretch;
 }
 
 .navbar {
@@ -21,8 +22,18 @@
     flex-direction: row;
 }
 
+.campo {
+
+    display: flex;
+    justify-self: center;
+    background-color: white;
+    border-color: aqua;
+}
+
 .box {
     
+    width: 20%;
+    height: 20%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -37,9 +48,11 @@
 .card {
 
     display: flex;
-    width: 100;
-    height: 100;
+    width: 30%;
+    height: 50%;
+    border-radius: 15px;
     justify-content: center;
+    justify-self: center;
     background-color: rgb(194, 193, 193);
     flex-direction: column;
 }
@@ -55,4 +68,9 @@
     background-color: rgb(36, 180, 247);
     justify-content: center;
     color: white;
+}
+
+.container {
+
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
 }
